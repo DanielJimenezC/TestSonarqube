@@ -25,7 +25,7 @@ namespace TestSonarqube.DataAccess
             testModal2.Id = "2";
             testModal2.Nombre = "Apellido";
             testModal2.Telefono = "995487002";
-            testModal2.Correo = "pruebas@correo.com";
+            testModal2.Correo = "pruebas@correo2.com";
 
             testModals.Add(testModal);
             testModals.Add(testModal2);
