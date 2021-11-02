@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSonarqube.Domain", "Tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSonarqube.DataAccess", "TestSonarqube.DataAccess\TestSonarqube.DataAccess.csproj", "{C5C9E046-80E3-4379-A8B1-47A85880457A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject_sonar", "TestProject_sonar\TestProject_sonar.csproj", "{E5E57CB4-7264-4973-B1D7-CEA6235014F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{34AD3A91-4608-47CF-BA81-EE31C499E72E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{C5C9E046-80E3-4379-A8B1-47A85880457A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5C9E046-80E3-4379-A8B1-47A85880457A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5C9E046-80E3-4379-A8B1-47A85880457A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E5E57CB4-7264-4973-B1D7-CEA6235014F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E5E57CB4-7264-4973-B1D7-CEA6235014F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E5E57CB4-7264-4973-B1D7-CEA6235014F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E5E57CB4-7264-4973-B1D7-CEA6235014F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34AD3A91-4608-47CF-BA81-EE31C499E72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AD3A91-4608-47CF-BA81-EE31C499E72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AD3A91-4608-47CF-BA81-EE31C499E72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AD3A91-4608-47CF-BA81-EE31C499E72E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
