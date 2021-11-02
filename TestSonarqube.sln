@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSonarqube", "TestSonarqube\TestSonarqube.csproj", "{2861515E-F908-4870-A5A0-5BBCAE4F1DDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSonarqube", "TestSonarqube\TestSonarqube.csproj", "{2861515E-F908-4870-A5A0-5BBCAE4F1DDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSonarqube.Bussiness", "TestSonarqube.Bussiness\TestSonarqube.Bussiness.csproj", "{9D9BC7E8-2A5B-46F0-B27D-D13F20E448AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSonarqube.Bussiness", "TestSonarqube.Bussiness\TestSonarqube.Bussiness.csproj", "{9D9BC7E8-2A5B-46F0-B27D-D13F20E448AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSonarqube.Domain", "TestSonarqube.Domain\TestSonarqube.Domain.csproj", "{8062D8EA-3A25-4600-A5C2-00973B0D561A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSonarqube.Domain", "TestSonarqube.Domain\TestSonarqube.Domain.csproj", "{8062D8EA-3A25-4600-A5C2-00973B0D561A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSonarqube.DataAccess", "TestSonarqube.DataAccess\TestSonarqube.DataAccess.csproj", "{C5C9E046-80E3-4379-A8B1-47A85880457A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSonarqube.DataAccess", "TestSonarqube.DataAccess\TestSonarqube.DataAccess.csproj", "{C5C9E046-80E3-4379-A8B1-47A85880457A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject_sonar", "TestProject_sonar\TestProject_sonar.csproj", "{E5E57CB4-7264-4973-B1D7-CEA6235014F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C5C9E046-80E3-4379-A8B1-47A85880457A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5C9E046-80E3-4379-A8B1-47A85880457A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5C9E046-80E3-4379-A8B1-47A85880457A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E57CB4-7264-4973-B1D7-CEA6235014F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E57CB4-7264-4973-B1D7-CEA6235014F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E57CB4-7264-4973-B1D7-CEA6235014F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E57CB4-7264-4973-B1D7-CEA6235014F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
