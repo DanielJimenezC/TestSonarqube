@@ -23,6 +23,14 @@ namespace TestSonarqube.Controllers
             return Ok(listado);
         }
 
+        [HttpGet("{id}")]
+        public IActionResult GetTestModalsById(string id)
+        {
+            BoTest boTest = new BoTest();
+            TestModal listado = boTest.GetTestModalsById(id);
+            return Ok(listado);
+        }
+
         [HttpPost]
         public IActionResult PostTestModals()
         {

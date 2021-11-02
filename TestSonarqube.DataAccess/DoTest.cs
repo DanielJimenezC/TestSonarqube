@@ -50,5 +50,16 @@ namespace TestSonarqube.DataAccess
 
             return testModals;
         }
+
+        public TestModal GetTestModalsById(string id)
+        {
+            TestModal testModal = new TestModal();
+            testModal.Id = id;
+            testModal.Nombre = "Direccion";
+            testModal.Telefono = "9845222590";
+            testModal.Correo = "pruebas@correo.com";
+
+            return testModal;
+        }
     }
 }

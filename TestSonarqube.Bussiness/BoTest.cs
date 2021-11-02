@@ -25,5 +25,12 @@ namespace TestSonarqube.Bussiness
             List<TestModal> testModals = doTest.PostTestModals();
             return testModals;
         }
+
+        public TestModal GetTestModalsById(string id)
+        {
+            DoTest doTest = new DoTest();
+            TestModal testModal = doTest.GetTestModalsById(id);
+            return testModal;
+        }
     }
 }
