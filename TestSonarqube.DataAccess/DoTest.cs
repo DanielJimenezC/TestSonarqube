@@ -11,7 +11,6 @@ namespace TestSonarqube.DataAccess
     {
         public List<TestModal> testModals;
         TestModal testModal;
-        TestModal testModal2;
 
         public DoTest()
         {
@@ -23,7 +22,7 @@ namespace TestSonarqube.DataAccess
             testModal.Telefono = "954754951";
             testModal.Correo = "test@correo2.com";
 
-            //TestModal testModal2 = new TestModal();
+            TestModal testModal2 = new TestModal();
             testModal2.Id = "2";
             testModal2.Nombre = "Apellido";
             testModal2.Telefono = "995487002";
