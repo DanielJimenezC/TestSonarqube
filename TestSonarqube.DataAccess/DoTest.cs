@@ -10,13 +10,12 @@ namespace TestSonarqube.DataAccess
     public class DoTest
     {
         public List<TestModal> testModals;
-        TestModal testModal;
 
         public DoTest()
         {
             testModals = new List<TestModal>();
 
-            //TestModal testModal = new TestModal();
+            TestModal testModal = new TestModal();
             testModal.Id = "1";
             testModal.Nombre = "Nombre";
             testModal.Telefono = "954754951";
