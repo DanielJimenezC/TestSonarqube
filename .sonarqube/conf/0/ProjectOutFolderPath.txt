@@ -1,0 +1,1 @@
+D:\Programacion\NetCore\TestSonarqube\.sonarqube\out\0

@@ -1,0 +1,9 @@
+﻿D:\Programacion\NetCore\TestSonarqube\TestSonarqube\Controllers\TestController.cs
+D:\Programacion\NetCore\TestSonarqube\TestSonarqube\Program.cs
+D:\Programacion\NetCore\TestSonarqube\TestSonarqube\Startup.cs
+D:\Programacion\NetCore\TestSonarqube\TestSonarqube\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+D:\Programacion\NetCore\TestSonarqube\TestSonarqube\obj\Debug\net5.0\TestSonarqube.AssemblyInfo.cs
+D:\Programacion\NetCore\TestSonarqube\TestSonarqube\obj\Debug\net5.0\TestSonarqube.MvcApplicationPartsAssemblyInfo.cs
+D:\Programacion\NetCore\TestSonarqube\TestSonarqube\appsettings.Development.json
+D:\Programacion\NetCore\TestSonarqube\TestSonarqube\appsettings.json
+D:\Programacion\NetCore\TestSonarqube\TestSonarqube\Properties\launchSettings.json
