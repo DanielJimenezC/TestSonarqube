@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading.Tasks;
 using TestSonarqube.Bussiness;
@@ -9,6 +10,7 @@ using TestSonarqube.Domain.Dto;
 
 namespace TestSonarqube.Controllers
 {
+    [ExcludeFromCodeCoverage]
     [Route("api/[controller]")]
     [ApiController]
     public class TestController : ControllerBase
