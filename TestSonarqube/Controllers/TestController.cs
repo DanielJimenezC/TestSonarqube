@@ -20,5 +20,13 @@ namespace TestSonarqube.Controllers
             List<TestModal> listado = boTest.GetTestModals();
             return Ok(listado);
         }
+
+        [HttpPost]
+        public IActionResult PostTestModals()
+        {
+            BoTest boTest = new BoTest();
+            List<TestModal> listado = boTest.PostTestModals();
+            return Ok(listado);
+        }
     }
 }

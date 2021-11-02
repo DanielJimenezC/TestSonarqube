@@ -9,7 +9,7 @@ namespace TestSonarqube.DataAccess
 {
     public class DoTest
     {
-        public List<TestModal> testModals;
+        private List<TestModal> testModals;
 
         public DoTest()
         {
@@ -33,6 +33,19 @@ namespace TestSonarqube.DataAccess
 
         public List<TestModal> GetTestModals()
         {
+            return testModals;
+        }
+
+        public List<TestModal> PostTestModals()
+        {
+            TestModal testModal = new TestModal();
+            testModal.Id = "3";
+            testModal.Nombre = "Direccion";
+            testModal.Telefono = "9845222590";
+            testModal.Correo = "pruebas@correo.com";
+
+            testModals.Add(testModal);
+
             return testModals;
         }
     }
