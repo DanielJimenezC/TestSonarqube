@@ -15,7 +15,6 @@ using System.Threading.Tasks;
 
 namespace TestSonarqube
 {
-    [ExcludeFromCodeCoverage]
     public class Startup
     {
         public Startup(IConfiguration configuration)

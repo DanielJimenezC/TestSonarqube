@@ -9,7 +9,6 @@ using TestSonarqube.Domain.Dto;
 
 namespace TestSonarqube.Bussiness
 {
-    [ExcludeFromCodeCoverage]
     public class BoTest
     {
         public List<TestModal> GetTestModals()
@@ -31,6 +30,13 @@ namespace TestSonarqube.Bussiness
             DoTest doTest = new DoTest();
             TestModal testModal = doTest.GetTestModalsById(id);
             return testModal;
+        }
+
+        public List<TestModal> DeleteTestModals()
+        {
+            DoTest doTest = new DoTest();
+            List<TestModal> testModals = doTest.DeleteTestModals();
+            return testModals;
         }
     }
 }

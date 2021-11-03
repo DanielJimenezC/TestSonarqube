@@ -10,7 +10,6 @@ using TestSonarqube.Domain.Dto;
 
 namespace TestSonarqube.Controllers
 {
-    [ExcludeFromCodeCoverage]
     [Route("api/[controller]")]
     [ApiController]
     public class TestController : ControllerBase
@@ -36,6 +35,14 @@ namespace TestSonarqube.Controllers
         {
             BoTest boTest = new BoTest();
             List<TestModal> listado = boTest.PostTestModals();
+            return Ok(listado);
+        }
+
+        [HttpDelete]
+        public IActionResult DeleteTestModals()
+        {
+            BoTest boTest = new BoTest();
+            List<TestModal> listado = boTest.DeleteTestModals();
             return Ok(listado);
         }
     }

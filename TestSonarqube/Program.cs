@@ -10,7 +10,6 @@ using System.Threading.Tasks;
 
 namespace TestSonarqube
 {
-    [ExcludeFromCodeCoverage]
     public static class Program
     {
         public static void Main(string[] args)
